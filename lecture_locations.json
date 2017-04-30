@@ -1,0 +1,128 @@
+[
+    {
+        "lat": "53.3815904",
+        "lng": "-1.4817886",
+        "location": "53.3815904, -1.4817886",
+        "building": "The Diamond",
+        "image": "diamond.jpg",
+        "address": "32 Leavygreave Rd, Sheffield S3 7RD"
+    },
+
+    {
+        "lat": "53.381797",
+        "lng": "-1.480715",
+        "location": "53.381797, -1.480715",
+        "building": "St George",
+        "image": "stgeorge-church.jpg",
+        "address": "St George's Terrace, Sheffield S1 4DP"
+    },
+
+    {
+        "lat": "53.381886",
+        "lng": "-1.477407",
+        "location": "53.381886, -1.477407",
+        "building": "Sir Robert Hadfield",
+        "image": "sir-robert.jpg",
+        "address": "Mappin St, Sheffield S1 3JD"
+    },
+
+    {
+        "lat": "53.382587",
+        "lng": "-1.471622",
+        "location": "53.382587, -1.471622",
+        "building": "Cathedral Court",
+        "image": "cathedral-court.jpg",
+        "address": "1 Vicar Ln, Sheffield S1"
+    },
+
+    {
+        "lat": "53.380831",
+        "lng": "-1.485877",
+        "location": "53.380831, -1.485877",
+        "building": "Hicks Building",
+        "image": "hicks.jpg",
+        "address": "Hounsfield Rd, Sheffield S3 7RH"
+    },
+
+    {
+        "lat": "53.381942",
+        "lng": "-1.478924",
+        "location": "53.381942, -1.478924",
+        "building": "Mappin Building",
+        "image": "mappin-building.jpg",
+        "address": "Mappin St, Sheffield S1 3JD"
+    },
+
+    {
+        "lat": "53.380818",
+        "lng": "-1.480285",
+        "location": "53.380818, -1.480285",
+        "building": "Regent Court",
+        "image": "regent-court.jpg",
+        "address": "211 Portobello, Sheffield S1 4DP"
+    },
+
+    {
+        "lat": "53.381441",
+        "lng": "-1.488431",
+        "location": "53.381441, -1.488431",
+        "building": "Firth Court",
+        "image": "firth-court.png",
+        "address": "Western Bank, Sheffield S10 2TN"
+    },
+
+    {
+        "lat": "53.381829",
+        "lng": "-1.487958",
+        "location": "53.381829, -1.487958",
+        "building": "Alfred Denny Building",
+        "image": "alfred-denny.jpg",
+        "address": "Western Bank, Sheffield, S10 2TN"
+    },
+
+    {
+        "lat": "53.382713",
+        "lng": "-1.487523",
+        "location": "53.382713, -1.487523",
+        "building": "Arts Tower",
+        "image": "arts-tower.png",
+        "address": "Western Bank, Sheffield S10 2TN"
+    },
+
+    {
+        "lat": "53.383815",
+        "lng": "-1.488911",
+        "location": "53.383815, -1.488911",
+        "building": "Bartolome House",
+        "image": "bartolome.png",
+        "address": "Winter Street, Sheffield S3 7ND"
+    },
+
+    {
+        "lat": "53.381007",
+        "lng": "-1.478819",
+        "location": "53.381007, -1.478819",
+        "building": "Sir Henry Stephenson Building",
+        "image": "sir-henry.jpg",
+        "address": "Mappin St, Sheffield S1"
+    },
+
+    {
+        "lat": "53.382116",
+        "lng": "-1.485326",
+        "location": "53.382116, -1.485326",
+        "building": "Richard Roberts Building",
+        "image": "richard-roberts.jpg",
+        "address": "Richard Roberts Building, Sheffield S3 7HF"
+    },
+
+    {
+        "lat": "53.382033",
+        "lng": "-1.486036",
+        "location": "53.382033, -1.486036",
+        "building": "Dainton Building",
+        "image": "dainton.png",
+        "address": "13 Brook Hill, Sheffield S3 7HF"
+    }
+
+]

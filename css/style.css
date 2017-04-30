@@ -1,0 +1,300 @@
+/* General Styling */
+body {
+	font-family: 'Product Sans', Arial, sans-serif !important;
+}
+
+.search-bar {
+	margin-bottom: 10px;
+}
+
+.search-bar .input-group{
+	/*width: 400px;*/
+}
+
+.search-bar .input-group input, .search-bar .input-group .input-group-btn .btn-default {
+	border-radius: 2px;
+}
+
+.search-bar .form-control, .search-bar button {
+	height: 45px;
+}
+
+/* Right Panel */
+
+#right-panel {
+	line-height: 30px;
+	padding-left: 10px;
+	-webkit-box-shadow: 0px 0px 12px 1px rgba(51, 51, 51, 0.8);
+	-moz-box-shadow: 0px 0px 12px 1px rgba(51, 51, 51, 0.8);
+	box-shadow: 0px 0px 12px 1px rgba(51, 51, 51, 0.8);
+}
+
+#right-panel select, #right-panel input {
+	font-size: 15px;
+}
+
+#right-panel select {
+	width: 100%;
+}
+
+#right-panel {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 450px;
+	padding: 0;
+	z-index: 5;
+	background: #fff;
+	overflow-y: scroll;
+	opacity: 0;
+	visibility: hidden;
+	direction: rtl;
+	text-align: left;
+	-webkit-transition: opacity 0.7s;
+	-moz-transition: opacity 0.7s;
+	-ms-transition: opacity 0.7s;
+	-o-transition: opacity 0.7s;
+	transition: opacity 0.7s;
+}
+
+#right-panel.active{
+	/*height: 100%;*/
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: opacity 0.7s;
+	-moz-transition: opacity 0.7s;
+	-ms-transition: opacity 0.7s;
+	-o-transition: opacity 0.7s;
+	transition: opacity 0.7s;
+}
+
+#right-panel.active.directions {
+	height: 100%;	
+}
+
+#directions-panel {
+	opacity: 0;
+	padding: 0;
+}
+
+#hover-div:hover {
+	background-color: #e6e6e6;
+}
+
+.adp, .adp table, #directions-panel > div > div {
+	font-family: 'Product Sans', Arial, sans-serif !important;
+}
+
+#directions-panel.active {
+	opacity: 1;
+	padding: 10px 20px;
+	border: 1px solid #eee;
+}
+
+hr {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.img-bg {
+	/*padding: 0 30px 20px;*/
+	height: 150px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+h3 {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#right-panel img {
+	width: 100%;
+	margin-bottom: 20px;
+	/*height: 235px;*/
+}
+
+#right-panel .details {
+	padding: 0 30px 10px;
+}
+
+#right-panel .details p.building-name {
+	font-size: 22px;
+	font-weight: 700;
+	color: #636363;
+	margin-bottom: 0;
+}
+
+#right-panel .details p.building-type {
+	font-size: 12px;
+	font-weight: 400;
+	color: #898888;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	line-height: normal;
+	direction: ltr;
+}
+
+#right-panel .details p.address {
+	font-size: 14px;
+	font-weight: 400;
+	color: #898888;
+	letter-spacing: 0.5px;
+	margin-bottom: 0;
+}
+
+#right-panel .details p.address i {
+	color: #02d46d;
+	margin-right: 15px;
+}
+
+#right-panel .nav-section {
+	padding: 10px;
+}
+
+#right-panel .navigate {
+	/*width: 100%;*/
+	font-weight: 700;
+	color: #38A155;
+	text-decoration: none;
+	/*background-color: transparent;*/
+	/*border-radius: 4px;*/
+	/*border: 1px solid #38A155;*/
+	/*letter-spacing: 1px;*/
+	outline: none;
+}
+
+#right-panel .col-xs-4 {
+	direction: ltr;
+	text-align: right;
+}
+
+h2 {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	/*height: auto;*/
+	/*width: 200px;*/
+}
+li {
+	background-color: #f1f1f1;
+	padding: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+li:nth-child(odd) {
+	background-color: #fcfcfc;
+}
+#more {
+	width: 100%;
+	margin: 5px 0 0 0;
+}
+
+.button-left {
+	position: absolute;
+	color: #fff;
+	left: 0;
+	top: 0;
+	background-color: #38A155;
+	width: 120px;
+	height: 60px;
+	-webkit-transition: width 0.7s, height 0.7s;
+	-moz-transition: width 0.7s, height 0.7s;
+	-ms-transition: width 0.7s, height 0.7s;
+	-o-transition: width 0.7s, height 0.7s;
+	transition: width 0.7s, height 0.7s;
+}
+
+.button-left.active {
+	width: 200px;
+	height: 120px;
+	-webkit-transition: width 0.7s, height 0.7s;
+	-moz-transition: width 0.7s, height 0.7s;
+	-ms-transition: width 0.7s, height 0.7s;
+	-o-transition: width 0.7s, height 0.7s;
+	transition: width 0.7s, height 0.7s;
+}
+
+.button-left .menu-bars {
+	padding: 20px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.button-left .menu-bars i {
+	margin-right: 10px;
+}
+
+.button-left .menus {
+	display: none;
+}
+
+.button-left .menus.active {
+	display: block;
+}
+
+.button-left button.find-theatres {color: #fff;
+	padding: 10px 15px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	border-radius: 30px;
+	margin-left: 20px;
+}
+
+a.close-side {
+	background-color: #38A155;
+	padding: 10px 20px;
+	color: #fff;
+	text-transform: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#left-panel {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	height: 200px;
+	width: 370px;
+	padding: 0;
+	z-index: 5;
+	color: #fff;
+	background: #38A155;;
+}
+
+/* InfoWindow Style */
+.gm-style-iw {
+    padding: 0;
+    font-family: 'Product Sans', Arial, sans-serif;
+}
+
+.gm-style-iw p.title {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.gm-style-iw p.description {
+	color: #8c8c8c;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.gm-style-iw button.link {
+	font-weight: 700;
+	font-size: 11px;	
+	color: #2196F3;
+	text-decoration: none;
+}
